@@ -6,7 +6,21 @@ The idea was to turn neural network activations into the video. Then it became s
 
 The final version can reconstruct the full sequence with 5.63% average pixel error after its initial warmup. It needs learned scene memories to stay on track, though. That led to the question I ended up caring about most: **is the prediction model doing useful work, or have I just built an expensive way to play back memories?**
 
-[Watch the source beside the final model, 45–60 seconds](videos/hero_45_60.mp4) · [Watch the full video](videos/hero_source_vs_220_full.mp4)
+<figure style="margin: 1.5rem 0;">
+  <video controls playsinline preload="metadata" style="width: 100%; height: auto;" aria-label="Source beside the final model from 45 to 60 seconds">
+    <source src="videos/hero_45_60.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="videos/hero_45_60.mp4">Download the 45–60 second comparison.</a>
+  </video>
+  <figcaption>Source beside the final model, 45–60 seconds.</figcaption>
+</figure>
+
+<figure style="margin: 1.5rem 0;">
+  <video controls playsinline preload="none" style="width: 100%; height: auto;" aria-label="Full source and final model comparison">
+    <source src="videos/hero_source_vs_220_full.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="videos/hero_source_vs_220_full.mp4">Download the full comparison.</a>
+  </video>
+  <figcaption>Full source and final-model comparison.</figcaption>
+</figure>
 
 The clips are silent. “Dreaming” is just my name for the free-running prediction loop, not a claim about what the network experiences.
 
@@ -38,7 +52,15 @@ I tried a spatial attention gate in the autoencoder too. It didn't make a meanin
 
 That became a useful rule for the project: keep extraction, reconstruction, prediction, and rendering separate. I wanted to be able to change an idea without rebuilding everything around it.
 
-[See what the autoencoder alone reconstructs](videos/autoencoder_45_60.mp4). This version receives the source on every frame; it is a reconstruction check, not a prediction experiment.
+<figure style="margin: 1.5rem 0;">
+  <video controls playsinline preload="metadata" style="width: 100%; height: auto;" aria-label="Autoencoder reconstruction from 45 to 60 seconds">
+    <source src="videos/autoencoder_45_60.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="videos/autoencoder_45_60.mp4">Download the autoencoder reconstruction.</a>
+  </video>
+  <figcaption>The source beside the frozen autoencoder reconstruction.</figcaption>
+</figure>
+
+This version receives the source on every frame; it is a reconstruction check, not a prediction experiment.
 
 ## Taking away the answers
 
@@ -59,7 +81,13 @@ There isn't a separate, stronger “teacher model” here. The weights are the s
 
 The gap between these views became more useful than training loss alone. In the final zero-anchor control, teacher-forced pixel error was 3.17%. Free-rollout error was 44.82%. That's a fairly blunt demonstration of how little a good one-step result can tell you about a long sequence.
 
-[Watch the zero-anchor comparison](videos/collapse_zero_45_60.mp4): source is upper left, teacher-forced upper right, and free rollout lower left.
+<figure style="margin: 1.5rem 0;">
+  <video controls playsinline preload="metadata" style="width: 100%; height: auto;" aria-label="Zero-anchor comparison from 45 to 60 seconds">
+    <source src="videos/collapse_zero_45_60.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="videos/collapse_zero_45_60.mp4">Download the zero-anchor comparison.</a>
+  </video>
+  <figcaption>Source upper left; teacher-forced upper right; free rollout lower left.</figcaption>
+</figure>
 
 ## Bad Apple is not just smooth motion
 
@@ -267,13 +295,35 @@ With 32 anchors, error falls from 37.20% to 9.38%, a 74.8% relative reduction. W
 
 So the full system is not equivalent to directly playing back its anchor interpolation. That was reassuring. It doesn't prove the model understands motion, or rule out a more sophisticated time-conditioned interpolation explanation.
 
-[Watch the 32-anchor comparison](videos/memory_32_45_60.mp4) · [Watch the 220-anchor comparison](videos/memory_220_45_60.mp4)
+<figure style="margin: 1.5rem 0;">
+  <video controls playsinline preload="metadata" style="width: 100%; height: auto;" aria-label="32-anchor comparison from 45 to 60 seconds">
+    <source src="videos/memory_32_45_60.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="videos/memory_32_45_60.mp4">Download the 32-anchor comparison.</a>
+  </video>
+  <figcaption>32-anchor comparison.</figcaption>
+</figure>
+
+<figure style="margin: 1.5rem 0;">
+  <video controls playsinline preload="metadata" style="width: 100%; height: auto;" aria-label="220-anchor comparison from 45 to 60 seconds">
+    <source src="videos/memory_220_45_60.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="videos/memory_220_45_60.mp4">Download the 220-anchor comparison.</a>
+  </video>
+  <figcaption>220-anchor comparison.</figcaption>
+</figure>
 
 The averages also hide difficult moments. Below are the unsmoothed per-frame errors for 32 and 220 anchors, on the same scales. More memory helps overall, but transitions and local failures still produce spikes. A good average is not the same as a clean silhouette on every frame.
 
 ![Per-frame teacher, rollout, and memory-only pixel errors for 32 and 220 anchors](figures/03_error_accumulation.png)
 
-The clips use the original 45–60 second prototype interval, not an interval chosen for the best score. [The full budget montage is available too](videos/anchor_budget_full.mp4).
+The clips use the original 45–60 second prototype interval, not an interval chosen for the best score. The full budget montage is below.
+
+<figure style="margin: 1.5rem 0;">
+  <video controls playsinline preload="none" style="width: 100%; height: auto;" aria-label="Full anchor-budget comparison montage">
+    <source src="videos/anchor_budget_full.mp4" type="video/mp4">
+    Your browser cannot play this video. <a href="videos/anchor_budget_full.mp4">Download the full budget montage.</a>
+  </video>
+  <figcaption>Full anchor-budget comparison montage.</figcaption>
+</figure>
 
 
 ## What I would try next

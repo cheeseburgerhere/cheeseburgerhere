@@ -6,6 +6,9 @@ baseurl: "/cheeseburgerhere"
 lang: en
 markdown: kramdown
 permalink: pretty
+header_pages:
+  - index.md
+  - bad_apple.md
 exclude:
   - README.md
   - ba_blog_assets/DRAFT_NOTES.md
