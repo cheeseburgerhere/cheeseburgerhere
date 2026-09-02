@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://github.com/cheeseburgerhere.png" width="170" alt="Yasin's GitHub avatar">
-</p>
+![Bocchi the Rock banner](bocchi.png)
 
 <h1 align="center">hey, i'm yasin (•‿•)</h1>
 
