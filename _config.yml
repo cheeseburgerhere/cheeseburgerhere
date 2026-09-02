@@ -1,0 +1,11 @@
+title: cheeseburgerhere
+description: Experiments with neural networks, memory, and generative systems.
+theme: jekyll-theme-minimal
+url: "https://cheeseburgerhere.github.io"
+baseurl: "/cheeseburgerhere"
+lang: en
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - ba_blog_assets/DRAFT_NOTES.md
