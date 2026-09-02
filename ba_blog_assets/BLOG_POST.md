@@ -15,10 +15,14 @@ The final version can reconstruct the full sequence with 5.63% average pixel err
 </figure>
 
 <figure style="margin: 1.5rem 0;">
-  <video controls playsinline preload="none" style="width: 100%; height: auto;" aria-label="Full source and final model comparison">
-    <source src="videos/hero_source_vs_220_full.mp4" type="video/mp4">
-    Your browser cannot play this video. <a href="videos/hero_source_vs_220_full.mp4">Download the full comparison.</a>
-  </video>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/hVxghEHlCzw"
+    title="Full source and final model comparison"
+    loading="lazy"
+    style="width: 100%; aspect-ratio: 16 / 9; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
   <figcaption>Full source and final-model comparison.</figcaption>
 </figure>
 
