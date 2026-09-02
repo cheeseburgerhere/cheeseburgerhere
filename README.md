@@ -2,7 +2,7 @@
   <img src="https://github.com/cheeseburgerhere.png" width="170" alt="Yasin's GitHub avatar">
 </p>
 
-<h1 align="center">hey, i'm yasin ヽ(•‿•)ノ</h1>
+<h1 align="center">hey, i'm yasin (•‿•)</h1>
 
 <p align="center">
   <b>AI engineer in training. I make neural networks do things they were probably not meant to do.</b>
