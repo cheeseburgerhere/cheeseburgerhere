@@ -32,7 +32,7 @@ I gave a model 16 black frames, took the source away, and made it continue from 
 ## spellbook
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,ts,react,cs,azure,git" alt="Python, PyTorch, scikit-learn, TypeScript, React, C sharp, Azure, and Git">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,ts,react,cs,git" alt="Python, PyTorch, scikit-learn, TypeScript, React, C sharp, Azure, and Git">
 </p>
 
 `GNNs` · `scientific ML` · `generative models` · `computer vision` · `LLM tuning` · `MLOps`
