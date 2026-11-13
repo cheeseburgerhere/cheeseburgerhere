@@ -1,6 +1,6 @@
 ![Bocchi the Rock banner](bocchi.png)
 
-<h1 align="center">hey, i'm yasin (•‿•)</h1>
+<h1 align="center">hey, i'm yasin (°ロ°)</h1>
 
 <p align="center">
   <b>AI engineer in training. I make neural networks do things they were probably not meant to do.</b>
@@ -13,37 +13,37 @@
   <a href="mailto:yasinyesilyurt222@gmail.com">email</a>
 </p>
 
-## current status
+## now
 
-- studying Artificial Intelligence Engineering at TOBB ETÜ
-- teaching GNNs about aerodynamics and machine failures
-- shrinking LLMs until they fit on one GPU
-- occasionally entering competitions instead of sleeping
+- studying Artificial Intelligence Engineering at TOBB ETÜ (B.S. expected 2027)
+- GNN surrogates for aerodynamics: first author of an accepted RAST 2026 paper on MeshGraphNets for surface-pressure prediction
+- fine-tuning and compressing LLMs to run on a single GPU
 - 日本語: still loading...
 
-## featured side quest: Bad Apple!!
+## side quest: Bad Apple!!
 
-I gave a model 16 black frames, took the source away, and made it continue from its own predictions. It drifted, recovered, relied suspiciously heavily on learned memories, and eventually reconstructed the full 219-second sequence with **5.63% average pixel error**.
+I gave a model 16 black frames, took the source away, and made it continue from its own predictions. It drifted, recovered, leaned heavily on learned scene memories, and reconstructed the full 219-second sequence with **5.63% average pixel error**.
 
 **[read: Neural Network Dreams of Bad Apple →](https://cheeseburgerhere.github.io/cheeseburgerhere/bad-apple/)**
 
-## spellbook
+## experience
+
+- **Roketsan**, AI research intern: CFD surrogates and physics-informed airfoil generation
+- **Beko**, AI engineering intern: multi-agent LLM control and GNN predictive maintenance
+- **Teknofest 2025**, technical lead: AI in Health finalist, 5th place
+
+## tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,ts,react,cs,git" alt="Python, PyTorch, scikit-learn, TypeScript, React, C sharp, Azure, and Git">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,ts,react,cs,git" alt="Python, PyTorch, scikit-learn, TypeScript, React, C sharp, and Git">
 </p>
 
-`GNNs` · `scientific ML` · `generative models` · `computer vision` · `LLM tuning` · `MLOps`
-
 <details>
-<summary><b>serious lore, hidden for aesthetic reasons</b></summary>
+<summary>grades and scores</summary>
 
 <br>
 
-- first author of an accepted RAST 2026 paper on MeshGraphNets for aerodynamic surface-pressure prediction
-- AI research internship at Roketsan: CFD surrogates and physics-informed airfoil generation
-- AI engineering internship at Beko: multi-agent LLM control and GNN predictive maintenance
-- technical lead, Teknofest 2025 AI in Health finalist - 5th place
-- B.S. expected 2027 · GPA 3.63/4.00 · TOEFL ITP 653/677
+- GPA 3.63/4.00
+- TOEFL ITP 653/677
 
 </details>
