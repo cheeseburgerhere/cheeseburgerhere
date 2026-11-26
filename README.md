@@ -1,4 +1,6 @@
-![Bocchi the Rock banner](bocchi.png)
+<p align="center">
+  <img src="bocchi.png" alt="Bocchi the Rock banner" width="75%">
+</p>
 
 <h1 align="center">hey, i'm yasin (°ロ°)</h1>
 
@@ -8,7 +10,6 @@
 
 <p align="center">
   <a href="https://cheeseburgerhere.github.io/cheeseburgerhere/">blog</a> ·
-  <a href="https://github.com/cheeseburgerhere/Resume-Latex/blob/main/Yasin_Yesilyurt_Resume.pdf">résumé</a> ·
   <a href="https://linkedin.com/in/yasin-yesilyurt">linkedin</a> ·
   <a href="mailto:yasinyesilyurt222@gmail.com">email</a>
 </p>
@@ -16,8 +17,9 @@
 ## now
 
 - studying Artificial Intelligence Engineering at TOBB ETÜ (B.S. expected 2027)
-- GNN surrogates for aerodynamics: first author of an accepted RAST 2026 paper on MeshGraphNets for surface-pressure prediction
-- fine-tuning and compressing LLMs to run on a single GPU
+- coronary calcium segmentation on cardiac CT with Ankara Bilkent City Hospital: first author, MIDL 2027 submission
+- leading Tabula Rasa: reading raw MLP neurons of new open-weight LLMs through a Jacobian lens, with random-neuron controls
+- GNN surrogates for aerodynamics: first author of an IEEE RAST 2026 paper on MeshGraphNets for surface-pressure prediction ([doi](https://doi.org/10.1109/RAST69551.2026.11672530))
 - 日本語: still loading...
 
 ## side quest: Bad Apple!!
