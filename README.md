@@ -17,8 +17,8 @@
 ## now
 
 - studying Artificial Intelligence Engineering at TOBB ETÜ (B.S. expected 2027)
-- coronary calcium segmentation on cardiac CT with Ankara Bilkent City Hospital: first author, MIDL 2027 submission
-- leading Tabula Rasa: reading raw MLP neurons of new open-weight LLMs through a Jacobian lens, with random-neuron controls
+- coronary calcium segmentation on cardiac CT with Ankara Bilkent City Hospital: first author, MIDL 2027 submission (code private while under review)
+- leading Tabula Rasa: reading raw MLP neurons of new open-weight LLMs through a Jacobian lens, with random-neuron controls (team project, not public yet)
 - GNN surrogates for aerodynamics: first author of an IEEE RAST 2026 paper on MeshGraphNets for surface-pressure prediction ([doi](https://doi.org/10.1109/RAST69551.2026.11672530))
 - 日本語: still loading...
 
